@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>バドミントン速報</title>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>
+
+  <body>
+
+    <h1>バドミントン速報</h1>
+    <hr/>
+
+    
+    <h2>まずは気になるチーム情報</h2>
+    <a id="team_unisys" href="http://www.unisys.co.jp/com/sponsors/badminton/team/index.html">日本ユニシス</a>
+    <h4>金メダリストのタカマツペアや銅メダリストの奥原希望が所属！！</h4>
+    <a id="team_ntt" href="https://www.ntt-east.co.jp/symbol/badminton/contents/member.html">NTT東日本</a>
+    <h4>天才田児や最近復活した世界ランキング2位の桃田が所属！！</h4>
+    <a id="team_tonami" href="http://www.tonami-badminton.jp/players_staff.html">トナミ運輸</a>
+    <h4>最近頭角を表し始めたソノカムペアと高校からのホキコバペアが所属！！</h4>
+    <hr/>
+
+    
+    <h2>ちょっと息抜き</h2>
+    <a href="omikuzi.html">おみくじ</a><br/>
+    <a href="minute.html">5秒あてゲーム</a><br/>
+    <hr/>
+
+    <h2>試合速報など</h2>
+    <form action="post" name="myForm">
+      <div>
+	<select name="myMenu" onchange="applySelection(this)">
+	  <option value="http://blog.livedoor.jp/utori_com/index.rdf">バド速</option>
+	  <option value="http://www.jsports.co.jp/press/column/title/66/rss1.xml">バドレポ</option>
+	  <option value="http://www.jsports.co.jp/press/column/title/37/rss1.xml">見てYOバドミントン</option>
+	  <option value="http://www.jsports.co.jp/press/column/title/45/rss1.xml">バドミントン代表だより</option>
+	</select>
+      </div>
+    </form>
+    
+    <hr/>
+    
+    <div id="disp"></div>
+    
+  </body>
+</html>
